@@ -164,9 +164,8 @@ nav>div>button:first-child {
 .first .firstImg .video1 {
       position: absolute;
       right: 171px;
-      top: calc(100vh + 12px + 128px + 86px);
-      width: 465px;
-      height: 264px;
+      width: 462px;
+      height: 456px;
 }
 
 .first .text {
