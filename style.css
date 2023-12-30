@@ -85,26 +85,26 @@ nav button {
       font-size: 40px;
 }
 
-.hero .userEmail{
+.hero .userEmail {
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 12px;
 }
 
-.line{
-      background-color: rgb(35,35,35);
+.line {
+      background-color: rgb(35, 35, 35);
       height: 12px;
       position: relative;
 }
 
-.btn{
+.btn {
       color: white;
       font-weight: 400;
       cursor: pointer;
 }
 
-.btn-red{
+.btn-red {
       background-color: red;
       border: 1px solid red;
       padding: 12px 24px;
@@ -112,7 +112,7 @@ nav button {
       font-size: 24px;
 }
 
-.hero > div > input{
+.hero>div>input {
       background-color: transparent;
       padding: 12px 24px;
       border-radius: 5px;
@@ -123,7 +123,7 @@ nav button {
       width: 360px;
 }
 
-.btn-red-sn{
+.btn-red-sn {
       background-color: red;
       border: 1px solid red;
       padding: 12px 20px;
@@ -132,15 +132,61 @@ nav button {
       margin-left: 6px;
 }
 
-nav > div > button:first-child{
+nav>div>button:first-child {
       background-color: transparent;
       padding: 12px 20px;
       border-radius: 5px;
-      font-size: 20px;      
+      font-size: 20px;
       border: 1px solid white;
 }
 
-.first{
-      
+.first {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 128px 0%;
+      max-width: 90vw;
+      margin: auto;
+      align-content: center;
 }
 
+.first .text {
+      color: white;
+      display: flex;
+      flex-direction: column;
+}
+
+.first .firstImg img {
+      position: relative;
+      z-index: 1;
+}
+
+.first .firstImg .video1 {
+      position: absolute;
+      right: 171px;
+      top: calc(100vh + 12px + 128px + 86px);
+      width: 465px;
+      height: 264px;
+}
+
+.first .text {
+      font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.first .text> :first-child {
+      font-weight: bolder;
+      font-size: 80px;
+      line-height: 0.9;
+}
+
+.first .text> :last-child {
+      font-weight: 400;
+      font-size: 37px;
+}
+
+.firstImg .video2 {
+      position: absolute;
+      right: 210px;
+      width: 390px;
+      height: 330px;
+}
