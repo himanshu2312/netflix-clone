@@ -85,7 +85,7 @@ nav button {
       font-size: 40px;
 }
 
-.hero .userEmail {
+.userEmail{
       display: flex;
       align-items: center;
       justify-content: center;
@@ -112,7 +112,7 @@ nav button {
       font-size: 24px;
 }
 
-.hero>div>input {
+.userEmail input {
       background-color: transparent;
       padding: 12px 24px;
       border-radius: 5px;
@@ -189,3 +189,47 @@ nav>div>button:first-child {
       width: 390px;
       height: 330px;
 }
+
+.faq{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      margin: 100px 0px;
+}
+
+.faq > :first-child{
+      font-weight: bolder;
+      font-size: 80px;
+      line-height: 0.9;
+      padding: 25px;
+}
+
+.faq .que{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+
+.que .ele{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 90vw;
+      margin: auto;
+      font-weight: 400;
+      font-size: 35px;
+      background-color:  rgb(35, 35, 35);
+      padding: 35px;
+      margin-top: 15px;
+      cursor: pointer;
+}
+
+.que > :last-child{
+      text-align: center;
+      font-weight: 400;
+      font-size: 40px;
+      padding: 50px 0px 25px 0px;
+} 
