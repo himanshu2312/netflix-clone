@@ -14,14 +14,14 @@ body {
       background-position: center center;
       background-repeat: no-repeat;
       background-size: 100%;
-      height: 100vh;
+      height: 90vh;
       width: 100%;
       margin: auto;
       position: relative9
 }
 
 .main .box {
-      height: 100vh;
+      height: 90vh;
       width: 100%;
       background-color: black;
       position: absolute;
@@ -53,7 +53,7 @@ nav button {
 
 .main .hero {
       font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
-      height: calc(100vh - 62px - 1.5em);
+      height: calc(90vh - 62px - 1.5em);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -303,7 +303,7 @@ footer>div>a {
       }
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (min-width:1201px) and (max-width: 1450px) {
       .main {
             height: 80vh;
       }
@@ -347,15 +347,15 @@ footer>div>a {
 
 @media screen and (max-width: 1200px) {
       .main {
-            height: 60vh;
+            height: 65vh;
       }
 
       .main .box {
-            height: 60vh;
+            height: 65vh;
       }
 
       .main .hero {
-            height: calc(60vh - 62px - 1.5em);
+            height: calc(65vh - 62px - 1.5em);
       }
 
       .hero>:first-child {
