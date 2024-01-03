@@ -15,14 +15,14 @@ body {
       background-repeat: no-repeat;
       background-size: 100%;
       height: 90vh;
-      width: 100%;
+      width: 100vw;
       margin: auto;
-      position: relative9
+      position: relative;
 }
 
 .main .box {
       height: 90vh;
-      width: 100%;
+      width: 100vw;
       background-color: black;
       position: absolute;
       top: 0;
@@ -35,12 +35,12 @@ nav {
       align-items: center;
       width: 90%;
       margin: auto;
-      padding-top: 1.5em;
-      height: 62px;
+      padding-top: 1.5rem;
+      height: 3.875rem;
 }
 
 nav img {
-      width: 173px;
+      width: 10.8125rem;
       position: relative;
       z-index: 1;
 }
@@ -53,14 +53,14 @@ nav button {
 
 .main .hero {
       font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
-      height: calc(90vh - 62px - 1.5em);
+      height: calc(90vh - 3524.375rem);
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
       position: relative;
-      gap: 23px;
-      padding: 0px 30px;
+      gap: 1.4375rem;
+      padding: 0px 1.875rem;
       padding-bottom: 0%;
       z-index: 1;
       color: white;
@@ -69,7 +69,7 @@ nav button {
 .hero>:first-child {
       text-align: center;
       font-weight: bolder;
-      font-size: 80px;
+      font-size: 5rem;
       line-height: 0.9;
 }
 
@@ -82,21 +82,21 @@ nav button {
 .hero> :nth-child(3) {
       text-align: center;
       font-weight: 400;
-      font-size: 40px;
+      font-size: 2.5rem;
 }
 
 .userEmail {
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 12px;
+      gap: 0.75rem;
 }
 
 .line {
       background-color: rgb(35, 35, 35);
-      height: 12px;
+      height: 0.75rem;
       position: relative;
-      width: 100%;
+      width: 100vw;
 }
 
 .btn {
@@ -108,36 +108,36 @@ nav button {
 .btn-red {
       background-color: red;
       border: 1px solid red;
-      padding: 12px 24px;
-      border-radius: 5px;
-      font-size: 24px;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.3125rem;
+      font-size: 1.5rem;
 }
 
 .userEmail input {
       background-color: transparent;
-      padding: 12px 24px;
-      border-radius: 5px;
-      font-size: 24px;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.3125rem;
+      font-size: 1.5rem;
       border: 1px solid white;
       color: white;
       font-weight: 400;
-      width: 360px;
+      width: 22.5rem;
 }
 
 .btn-red-sn {
       background-color: red;
       border: 1px solid red;
-      padding: 12px 20px;
-      border-radius: 5px;
-      font-size: 20px;
-      margin-left: 6px;
+      padding: 0.75rem 1.25rem;
+      border-radius: 0.3125rem;
+      font-size: 1.25rem;
+      margin-left: 0.4rem;
 }
 
 nav>div>button:first-child {
       background-color: transparent;
-      padding: 12px 20px;
-      border-radius: 5px;
-      font-size: 20px;
+      padding: 0.75rem 1.25rem;
+      border-radius: 0.3125rem;
+      font-size: 1.25rem;
       border: 1px solid white;
 }
 
@@ -145,8 +145,8 @@ nav>div>button:first-child {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 128px 0%;
-      max-width: 90%;
+      padding: 8rem 0%;
+      max-width: 90vw;
       margin: auto;
       align-content: center;
 }
@@ -164,9 +164,9 @@ nav>div>button:first-child {
 
 .first .firstImg .video1 {
       position: absolute;
-      right: 171px;
-      width: 462px;
-      height: 456px;
+      right: 10.6875rem;
+      width: 28.875rem;
+      height: 28.5rem;
 }
 
 .first .text {
@@ -175,20 +175,20 @@ nav>div>button:first-child {
 
 .first .text> :first-child {
       font-weight: bolder;
-      font-size: 80px;
+      font-size: 5rem;
       line-height: 0.9;
 }
 
 .first .text> :last-child {
       font-weight: 400;
-      font-size: 37px;
+      font-size: 2.3125rem;
 }
 
 .firstImg .video2 {
       position: absolute;
-      right: 210px;
-      width: 390px;
-      height: 330px;
+      right: 13.125rem;
+      width: 24.375rem;
+      height: 20.625rem;
 }
 
 .faq {
@@ -197,15 +197,15 @@ nav>div>button:first-child {
       align-items: center;
       justify-content: center;
       color: white;
-      margin: 100px 0px;
-      width: 100%;
+      margin: 6.25rem 0px;
+      width: 100vw;
 }
 
 .faq> :first-child {
       font-weight: bolder;
-      font-size: 80px;
+      font-size: 5rem;
       line-height: 0.9;
-      padding: 25px;
+      padding: 1.5625rem;
 }
 
 .faq .que {
@@ -220,13 +220,14 @@ nav>div>button:first-child {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      width: 90%;
+      width: 90vw;
       margin: auto;
       font-weight: 400;
-      font-size: 35px;
+      font-size: 2.1875rem;
       background-color: #2d2d2d;
-      padding: 35px;
-      margin-top: 1590 cursor: pointer;
+      padding: 2.1875rem;
+      margin-top: 1.25rem;
+      cursor: pointer;
 }
 
 .ele:hover {
@@ -240,28 +241,28 @@ nav>div>button:first-child {
 .que> :last-child {
       text-align: center;
       font-weight: 200;
-      font-size: 40px;
-      padding: 50px 0px 25px 0px;
+      font-size: 2.5rem;
+      padding: 3.125rem 0px 1.5625rem 0px;
 }
 
 footer {
       color: #b3b3b3;
-      width: 90%;
-      margin: 80px auto;
+      width: 90vw;
+      margin: 5rem auto;
 }
 
 footer> :first-child {
-      font-size: 25px;
-      padding: 40px 0px;
+      font-size: 1.5625rem;
+      padding: 2.5rem 0px;
 }
 
 footer>button {
       background-color: transparent;
-      padding: 12px 20px;
-      border-radius: 5px;
-      font-size: 20px;
+      padding: 0.75rem 1.25rem;
+      border-radius: 0.3125rem;
+      font-size: 1.25rem;
       border: 1px solid white;
-      margin: 20px 0px;
+      margin: 1.25rem 0px;
 }
 
 footer>div>a {
@@ -277,18 +278,18 @@ footer>div>a {
 .footer .footer-items {
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      gap: 1.25rem;
 }
 
 .footer-items a,
 .brand-name {
       color: #b3b3b3;
-      font-size: 20px;
+      font-size: 1.25rem;
       font-family: inherit;
 }
 
 @media screen and (min-width: 1975px) {
-      .first .firstImg .video1 {
+      /* .first .firstImg .video1 {
             position: absolute;
             right: 171px;
             width: 513px;
@@ -300,11 +301,11 @@ footer>div>a {
             right: 245px;
             width: 390px;
             height: 311px;
-      }
+      } */
 }
 
 @media screen and (min-width:1201px) and (max-width: 1450px) {
-      .main {
+      /* .main {
             height: 80vh;
       }
 
@@ -342,11 +343,11 @@ footer>div>a {
 
       .que> :last-child {
             font-size: 30px;
-      }
+      } */
 }
 
 @media screen and (max-width: 1200px) {
-      .main {
+      /* .main {
             height: 65vh;
       }
 
@@ -384,6 +385,6 @@ footer>div>a {
 
       .que> :last-child {
             font-size: 20px;
-      }
+      } */
 }
 
