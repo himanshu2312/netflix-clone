@@ -1,5 +1,5 @@
 # Project Live :
-  [Netflix.com](https://himanshu2312.github.io/netflix-clone/)
+  [NetflixClone.com](https://himanshu2312.github.io/netflix-clone/)
 
 # Getting Started with Create React App
 
